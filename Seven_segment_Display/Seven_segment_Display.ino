@@ -112,7 +112,7 @@ void digital_8(void)
   digitalWrite(e,HIGH);
   digitalWrite(f,HIGH);
   digitalWrite(g,HIGH);
-  digitalWrite(dp,HIGH);
+  digitalWrite(dp,LOW);
 }
 
 void digital_9(void)
@@ -124,7 +124,7 @@ void digital_9(void)
   digitalWrite(e,LOW);
   digitalWrite(f,HIGH);
   digitalWrite(g,HIGH);
-  digitalWrite(dp,HIGH);
+  digitalWrite(dp,LOW);
 }
 void setup() {
  // put your setup code here, to run once:
