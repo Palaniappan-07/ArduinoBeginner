@@ -3,7 +3,7 @@ Servo myservo;
 
 void setup() {
   // put your setup code here, to run once:
-  myservo.attach(8);
+  myservo.attach(9);
   myservo.write(0);
   delay(1000);
 }
